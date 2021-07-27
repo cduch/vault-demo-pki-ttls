@@ -5,3 +5,4 @@ agent/tmp-cert.crt
 CA_cert.crt
 intermediate.cert.pem
 pki_intermediate.csr
+agent/approleToken
