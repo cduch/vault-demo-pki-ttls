@@ -6,3 +6,4 @@ CA_cert.crt
 intermediate.cert.pem
 pki_intermediate.csr
 agent/approleToken
+agent/pidfile
