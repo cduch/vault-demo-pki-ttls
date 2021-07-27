@@ -10,4 +10,5 @@ vault write pki_int/issue/example-dot-com common_name="test24h.example.com" ttl=
 
 vault write pki_int/issue/example-dot-com common_name="test60s.example.com" ttl="60"
 
-echo "open on your browser: http://localhost:8200/ui/vault/secrets/pki_int/list?tab=certs"
+echo ""
+echo "open the following URL in your browser: http://localhost:8200/ui/vault/secrets/pki_int/list?tab=certs and use 'root' as a token"

@@ -25,5 +25,6 @@ vault write -f -format=json auth/approle/role/agent-role/secret-id \
         | jq -r '.data.secret_id' > agent/secret-id.tmp
 
 
-
+echo "use the following command to start an agent:"
+echo ""
 echo "cd agent && vault agent -config=agent-config.cfg token=root"
