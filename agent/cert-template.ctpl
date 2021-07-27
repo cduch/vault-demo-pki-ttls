@@ -1,0 +1,2 @@
+{{ with secret "pki_int/issue/example-dot-com" "common_name=test60s.example.com" "ttl=60" }}
+{{ .Data.certificate }}{{ end }}
