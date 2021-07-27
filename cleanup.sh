@@ -11,7 +11,12 @@ rm -f \
     payload-int.json \
     payload-int-cert.json \
     payload-signed.json \
-    payload-role.json
+    payload-role.json  \
+    agent/role-id.tmp  \
+    agent/secret-id.tmp  \
+    agent/tmp-cert.crt  \
+    agent/pidfile  \
+    log/vault_audit.log
 
 
 #stop and remove vault containers if already running

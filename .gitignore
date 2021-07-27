@@ -1,1 +1,7 @@
 log/vault_audit.log
+agent/role-id.tmp
+agent/secret-id.tmp
+agent/tmp-cert.crt
+CA_cert.crt
+intermediate.cert.pem
+pki_intermediate.csr
